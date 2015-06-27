@@ -1,4 +1,3 @@
-
 # ecvet-step.eu
 
 Website of the **"ECVET STEP"** project, live at: http://ecvet-step.eu
@@ -163,4 +162,7 @@ Project Number: 539816-LLP-1-2013-1-GR-LEONARDO-LMP
           W3C-WAI Web Content Accessibility Guidelines 1.0"></a>
 ```
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f7e57f8406c4ee06f70ded66e6053d714e932b8b
