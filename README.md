@@ -80,7 +80,7 @@ Website of the **"ECVET STEP"** project, live at: http://ecvet-step.eu
 
 * aside - Typically styled without a title. Similar to a Facebook note update.
 * gallery - A gallery of images. Post will likely contain a gallery shortcode and will have image attachments.
-* link - A link to another site. Themes may wish to use the first <a href=””> tag in the post content as the external link for that post. An alternative approach could be if the post consists only of a URL, then that will be the URL and the title (post_title) will be the name attached to the anchor for it.
+* link - A link to another site. Themes may wish to use the first `<a href=””>` tag in the post content as the external link for that post. An alternative approach could be if the post consists only of a URL, then that will be the URL and the title (post_title) will be the name attached to the anchor for it.
 * image - A single image. The first <img /> tag in the post could be considered the image. Alternatively, if the post consists only of a URL, that will be the image URL and the title of the post (post_title) will be the title attribute for the image.
 * quote - A quotation. Probably will contain a blockquote holding the quote content. Alternatively, the quote may be just the content, with the source/author being the title.
 * status - A short status update, similar to a Twitter status update.
@@ -91,7 +91,7 @@ Website of the **"ECVET STEP"** project, live at: http://ecvet-step.eu
 
 #### Analytics
 
-```
+```html
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -128,7 +128,7 @@ Project Number: 539816-LLP-1-2013-1-GR-LEONARDO-LMP
 
 #### HTML5
 
-```
+```html
 <a href="http://www.w3.org/html/logo/">
 <img src="html5-badge-h-css3-device-multimedia-performance-semantics.png" width="261" height="64" alt="HTML5 Powered with CSS3 / Styling, Device Access, Multimedia, Performance &amp; Integration, and Semantics" title="HTML5 Powered with CSS3 / Styling, Device Access, Multimedia, Performance &amp; Integration, and Semantics">
 </a>
@@ -136,7 +136,7 @@ Project Number: 539816-LLP-1-2013-1-GR-LEONARDO-LMP
 
 #### CSS
 
-```
+```html
 <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10-blue.png" alt="Valid XHTML 1.0 Transitional" height="31" width="88"></a>
  &nbsp;&nbsp;<a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS Valido!">
@@ -146,14 +146,14 @@ Project Number: 539816-LLP-1-2013-1-GR-LEONARDO-LMP
 
 #### Creative Commons
 
-```
+```html
  <img src="img/footer-cc.png" alt="Creative Commons" height="32" width="88">
  <p>Except where otherwise noted, content on this site is licensed under a Creative Commons<br><a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution 3.0 License">Attribution 3.0 License</a></p>
 ```
 
 #### WCAG
 
-```
+```html
 <a href="http://www.w3.org/WAI/WCAG1AA-Conformance"
       title="Explanation of Level Double-A Conformance">
   <img height="32" width="88" 
