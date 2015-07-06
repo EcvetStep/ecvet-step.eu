@@ -7,3 +7,5 @@ _other/
 installer-log.txt
 tk.md
 wp-config.php
+wp-config-ecvet-step.php
+uploads.tgz
