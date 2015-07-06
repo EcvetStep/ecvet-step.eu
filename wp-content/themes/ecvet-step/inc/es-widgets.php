@@ -2,7 +2,7 @@
 /**
  * Register widgetized area and update sidebar with default widgets
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_widgets_init() {
 
@@ -84,9 +84,9 @@ add_action( 'widgets_init', 'ecvetstep_widgets_init' );
  *
  * Learn more: http://codex.wordpress.org/Widgets_API#Developing_Widgets
  *
- * @package Catch Themes
- * @subpackage Catch_Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
 class ecvetstep_social_widget extends WP_Widget {
 	

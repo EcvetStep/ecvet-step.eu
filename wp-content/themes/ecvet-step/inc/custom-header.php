@@ -13,9 +13,9 @@
 	<?php } // if ( ! empty( $header_image ) ) ?>
 
  *
- * @package Catch Themes
- * @subpackage Catch Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
 
 /**
@@ -32,7 +32,7 @@
  * @uses ecvetstep_admin_header_style()
  * @uses ecvetstep_header_image()
  *
- * @package Catch Kathmandu
+ * @package ECVET STEP Themes
  */
 function ecvetstep_custom_header_setup() {
 	$args = array(
@@ -93,9 +93,9 @@ add_action( 'after_setup_theme', 'ecvetstep_custom_header_setup' );
  * @todo Remove this function when WordPress 3.6 is released.
  * @return stdClass All properties represent attributes of the curent header image.
  *
- * @package Catch Themes
- * @subpackage Catch Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
 
 if ( ! function_exists( 'get_custom_header' ) ) {
@@ -116,7 +116,7 @@ if ( ! function_exists( 'ecvetstep_header_style' ) ) :
  *
  * @see ecvetstep_custom_header_setup().
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_header_style() {
 
@@ -159,7 +159,7 @@ if ( ! function_exists( 'ecvetstep_admin_header_style' ) ) :
  *
  * @see ecvetstep_custom_header_setup().
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_admin_header_style() {
 	?>
@@ -231,7 +231,7 @@ if ( ! function_exists( 'ecvetstep_header_image' ) ) :
  *
  * @see ecvetstep_custom_header_setup().
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_header_image() { 	
 	?>

@@ -4,9 +4,9 @@
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Catch Themes
- * @subpackage Catch Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
 ?>
 

@@ -12,12 +12,12 @@ function ecvetstep_primary_menu() { ?>
             <div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'ecvetstep' ); ?>"><?php _e( 'Skip to content', 'ecvetstep' ); ?></a></div>
             <?php
                 if ( has_nav_menu( 'primary' ) ) { 
-                    $catchkathamdu_primary_menu_args = array(
+                    $ecvetstep_primary_menu_args = array(
                         'theme_location'    => 'primary',
                         'container_class' 	=> 'menu-header-container', 
                         'items_wrap'        => '<ul class="menu">%3$s</ul>' 
                     );
-                    wp_nav_menu( $catchkathamdu_primary_menu_args );
+                    wp_nav_menu( $ecvetstep_primary_menu_args );
                 }
                 else {
                     echo '<div class="menu-header-container">';
@@ -44,12 +44,12 @@ function ecvetstep_secondary_menu() {
         <nav id="access-secondary" role="navigation">
             <h2 class="assistive-text"><?php _e( 'Secondary Menu', 'ecvetstep' ); ?></h2>
             <?php     
-				$catchkathamdu_secondary_menu_args = array(
+				$ecvetstep_secondary_menu_args = array(
 					'theme_location'    => 'secondary',
 					'container_class' 	=> 'menu-secondary-container', 
 					'items_wrap'        => '<ul class="menu">%3$s</ul>' 
 				);
-				wp_nav_menu( $catchkathamdu_secondary_menu_args );
+				wp_nav_menu( $ecvetstep_secondary_menu_args );
             ?> 	         
         </nav><!-- .site-navigation .main-navigation -->  
 	</div>

@@ -4,9 +4,9 @@
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
- * @package Catch Themes
- * @subpackage Catch Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
 ?>
 <!DOCTYPE html>

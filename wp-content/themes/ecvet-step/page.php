@@ -7,21 +7,21 @@
  * and that other 'pages' on your WordPress site will use a
  * different template.
  *
- * @package Catch Themes
- * @subpackage Catch Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
 
 get_header(); ?>
 
-		<div id="primary" class="content-area">
+		<div id="primary-alone" class="content-area">
 			<div id="content" class="site-content" role="main">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'content', 'page' ); ?>
 
-					<?php comments_template( '', true ); ?>
+					<?php comments_template( '', false ); ?>
 
 				<?php endwhile; // end of the loop. ?>
 

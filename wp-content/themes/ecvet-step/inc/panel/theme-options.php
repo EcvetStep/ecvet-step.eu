@@ -1,10 +1,10 @@
 <?php
 /**
- * Catch Kathmandu Theme Options
+ * ECVET STEP One Theme Options
  *
- * @package Catch Themes
- * @subpackage Catch Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
 add_action( 'admin_init', 'ecvetstep_register_settings' );
 add_action( 'admin_menu', 'ecvetstep_options_menu' );
@@ -83,7 +83,7 @@ function ecvetstep_register_settings() {
 
 
 /*
- * Render Catch Kathmandu Theme Options page
+ * Render ECVET STEP One Theme Options page
  *
  * @uses settings_fields, get_option, bloginfo
  * @Settings Updated

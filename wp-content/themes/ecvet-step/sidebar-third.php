@@ -2,7 +2,7 @@
 /**
  * The Footer widget areas.
  *
- * @package Catch Themes
+ * @package ECVET STEP Themes
  * @subpackage Catch_Evolution_Pro
  * @since Catch Evolution 1.0
  */

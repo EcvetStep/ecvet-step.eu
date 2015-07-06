@@ -4,9 +4,9 @@
  *
  * Eventually, some of the functionality here could be replaced by core features
  *
- * @package Catch Themes
- * @subpackage Catch Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
 
 
@@ -176,7 +176,7 @@ if ( ! function_exists( 'ecvetstep_featured_image' ) ) :
  * To override this in a child theme
  * simply create your own ecvetstep_featured_image(), and that function will be used instead.
  *
- * @since Catch Kathmandu Pro 1.0
+ * @@since ECVET STEP One 1.0
  */
 function ecvetstep_featured_image() {
 	//delete_transient( 'ecvetstep_featured_image' );	
@@ -241,7 +241,7 @@ if ( ! function_exists( 'ecvetstep_featured_page_post_image' ) ) :
  * To override this in a child theme
  * simply create your own ecvetstep_featured_imaage_pagepost(), and that function will be used instead.
  *
- * @since Catch Kathmandu Pro 1.0
+ * @@since ECVET STEP One 1.0
  */
 function ecvetstep_featured_page_post_image() {
 
@@ -287,7 +287,7 @@ if ( ! function_exists( 'ecvetstep_featured_overall_image' ) ) :
  * To override this in a child theme
  * simply create your own ecvetstep_featured_pagepost_image(), and that function will be used instead.
  *
- * @since Catch Kathmandu Pro 1.0
+ * @@since ECVET STEP One 1.0
  */
 function ecvetstep_featured_overall_image() {
 
@@ -342,7 +342,7 @@ if ( ! function_exists( 'ecvetstep_content_image' ) ) :
  * To override this in a child theme
  * simply create your own ecvetstep_content_image(), and that function will be used instead.
  *
- * @since Catch Kathmandu Pro 1.0
+ * @@since ECVET STEP One 1.0
  */
 function ecvetstep_content_image() {
 	global $post, $wp_query;
@@ -396,7 +396,7 @@ endif; //ecvetstep_content_image
 /**
  * Hooks the Custom Inline CSS to head section
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_inline_css() {
 	//delete_transient( 'ecvetstep_inline_css' );	
@@ -426,7 +426,7 @@ add_action('wp_head', 'ecvetstep_inline_css');
 /**
  * Filters wp_title to print a neat <title> tag based on what is being viewed.
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  *
  * @param string $title Default title text for current view.
  * @param string $sep Optional separator.
@@ -562,7 +562,7 @@ add_action('template_redirect', 'ecvetstep_rss_redirect');
 /**
  * Adds custom classes to the array of body classes.
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_body_classes( $classes ) {
 	global $post, $ecvetstep_options_settings;
@@ -618,7 +618,7 @@ add_filter( 'body_class', 'ecvetstep_body_classes' );
 /**
  * Filter in a link to a content ID attribute for the next/previous image links on image attachment pages
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_enhanced_image_navigation( $url, $id ) {
 	if ( ! is_attachment() && ! wp_attachment_is_image( $id ) )
@@ -649,7 +649,7 @@ add_action( 'ecvetstep_hgroup_wrap', 'ecvetstep_header_right', 15 );
 /**
  * Get our wp_nav_menu() fallback, wp_page_menu(), to show a home link.
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_page_menu_args( $args ) {
 	$args['show_home'] = true;
@@ -661,7 +661,7 @@ add_filter( 'wp_page_menu_args', 'ecvetstep_page_menu_args' );
 /**
  * Removes div from wp_page_menu() and replace with ul.
  *
- * @since Catch Kathmandu 1.0 
+ * @since ECVET STEP One 1.0 
  */
 function ecvetstep_wp_page_menu ($page_markup) {
     preg_match('/^<div class=\"([a-z0-9-_]+)\">/i', $page_markup, $matches);
@@ -704,7 +704,7 @@ if ( ! function_exists( 'ecvetstep_post_sliders' ) ) :
  * simply create your own ecvetstep_post_sliders(), and that function will be used instead.
  *
  * @uses ecvetstep_header action to add it in the header
- * @since Catch Kathmandu Pro 1.0
+ * @@since ECVET STEP One 1.0
  */
 function ecvetstep_post_sliders() { 
 	//delete_transient( 'ecvetstep_post_sliders' );
@@ -774,7 +774,7 @@ if ( ! function_exists( 'ecvetstep_category_sliders' ) ) :
  * simply create your own ecvetstep_category_sliders(), and that function will be used instead.
  *
  * @uses ecvetstep_header action to add it in the header
- * @since Catch Kathmandu Pro 1.0
+ * @@since ECVET STEP One 1.0
  */
 function ecvetstep_category_sliders() { 
 	//delete_transient( 'ecvetstep_category_sliders' );
@@ -878,7 +878,7 @@ function ecvetstep_default_sliders() {
 							</h1>
 						</header>
 						<div class="entry-content">
-							<p>Situated western part in the outskirts of the Kathmandu valley, Seto Gumba also known as Druk Amitabh Mountain or White Monastery, is one of the most popular Buddhist monasteries of Nepal.</p>
+							<p>Situated western part in the outskirts of the ECVET valley, Seto Gumba also known as Druk Amitabh Mountain or White Monastery, is one of the most popular Buddhist monasteries of Nepal.</p>
 						</div>   
 					</div>             
 				</article><!-- .slides --> 		
@@ -959,7 +959,7 @@ if ( ! function_exists( 'ecvetstep_homepage_headline' ) ) :
  * simply create your own ecvetstep_homepage_headline(), and that function will be used instead.
  *
  * @uses ecvetstep_before_main action to add it in the header
- * @since Catch Kathmandu Pro 1.0
+ * @@since ECVET STEP One 1.0
  */
 function ecvetstep_homepage_headline() { 
 	//delete_transient( 'ecvetstep_homepage_headline' );
@@ -1077,7 +1077,7 @@ function ecvetstep_default_featured_content() {
 								</h1>
 							</header>
 							<div class="entry-content">
-								Swayambhunath is an ancient religious site up in the hill around Kathmandu Valley. It is also known as the Monkey Temple as there are holy monkeys living in the temple. 
+								Swayambhunath is an ancient religious site up in the hill around ECVET Valley. It is also known as the Monkey Temple as there are holy monkeys living in the temple. 
 							</div>
 						</div><!-- .entry-container -->			
 					</article>
@@ -1095,7 +1095,7 @@ function ecvetstep_default_featured_content() {
 								</h1>
 							</header>
 							<div class="entry-content">
-								It is the traditional architecture in the Kathmandu valley in temples, palaces, monasteries and houses a perfected Neawri art form generally carved very artistically out of  Wood.
+								It is the traditional architecture in the ECVET valley in temples, palaces, monasteries and houses a perfected Neawri art form generally carved very artistically out of  Wood.
 								
 							</div>
 						</div><!-- .entry-container -->			
@@ -1134,7 +1134,7 @@ if ( ! function_exists( 'ecvetstep_homepage_featured_content' ) ) :
  * simply create your own ecvetstep_homepage_featured_content(), and that function will be used instead.
  *
  * @uses ecvetstep_before_main action to add it in the header
- * @since Catch Kathmandu Pro 1.0
+ * @@since ECVET STEP One 1.0
  */
 function ecvetstep_homepage_featured_content() { 
 	//delete_transient( 'ecvetstep_homepage_featured_content' );
@@ -1384,7 +1384,7 @@ if ( ! function_exists( 'ecvetstep_footer_content' ) ) :
  * simply create your own ecvetstep_footer_content(), and that function will be used instead.
  *
  * @uses ecvetstep_site_generator action to add it in the footer
- * @since Catch Kathmandu Pro 1.0
+ * @@since ECVET STEP One 1.0
  */
 function ecvetstep_footer_content() { 
 	delete_transient( 'ecvetstep_footer_content' );	
@@ -1473,7 +1473,7 @@ if ( ! function_exists( 'ecvetstep_social_networks' ) ) :
  * To override this in a child theme
  * simply create your own ecvetstep_social_networks(), and that function will be used instead.
  *
- * @since Catch Kathmandu Pro 1.0
+ * @@since ECVET STEP One 1.0
  */
 function ecvetstep_social_networks() {
 	//delete_transient( 'ecvetstep_social_networks' );

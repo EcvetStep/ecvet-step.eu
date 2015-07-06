@@ -1,10 +1,10 @@
 <?php
 /**
- * Catch Kathmandu Pro functions and definitions
+ * ECVET STEP One functions and definitions
  *
- * @package Catch Themes
- * @subpackage Catch Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
 
 
@@ -16,7 +16,7 @@ if ( ! function_exists( 'ecvetstep_setup' ) ) :
  * before the init hook. The init hook is too late for some features, such as indicating
  * support post thumbnails.
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_setup() {
 	
@@ -30,7 +30,7 @@ function ecvetstep_setup() {
 	/**
 	 * Make theme available for translation
 	 * Translations can be filed in the /languages/ directory
-	 * If you're building a theme based on Catch Kathmandu, use a find and replace
+	 * If you're building a theme based on ECVET STEP One, use a find and replace
 	 * to change 'ecvetstep' to the name of your theme in all the template files
 	 */
 	// load_theme_textdomain( 'ecvetstep', get_template_directory() . '/languages' );	

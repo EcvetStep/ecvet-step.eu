@@ -2,9 +2,9 @@
 /**
  * The default template for displaying content
  *
- * @package Catch Themes
- * @subpackage Catch Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
  
 //Getting data from Theme Options Panel and Meta Box 

@@ -4,16 +4,16 @@
  *
  * Eventually, some of the functionality here could be replaced by core features
  *
- * @package Catch Themes
- * @subpackage Catch Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
 
 if ( ! function_exists( 'ecvetstep_content_nav' ) ) :
 /**
  * Display navigation to next/previous pages when applicable
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_content_nav( $nav_id ) {
 	global $wp_query, $post;
@@ -77,7 +77,7 @@ if ( ! function_exists( 'ecvetstep_content_query_nav' ) ) :
 /**
  * Display navigation to next/previous pages for custom query
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_content_query_nav( $nav_id ) {
 	global $wp_query, $post;
@@ -135,7 +135,7 @@ if ( ! function_exists( 'ecvetstep_comment' ) ) :
  *
  * Used as a callback by wp_list_comments() for displaying the comments.
  *
- * @since Catch Kathmandu Pro 1.0
+ * @@since ECVET STEP One 1.0
  */
 function ecvetstep_comment( $comment, $args, $depth ) {
 	$GLOBALS['comment'] = $comment;
@@ -197,7 +197,7 @@ if ( ! function_exists( 'ecvetstep_header_meta' ) ) :
  *
  * Create your own ecvetstep_header_meta() to override in a child theme.
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_header_meta() {
 	
@@ -232,7 +232,7 @@ if ( ! function_exists( 'ecvetstep_footer_meta' ) ) :
  *
  * Create your own ecvetstep_footer_meta() to override in a child theme.
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_footer_meta() {
 	
@@ -265,7 +265,7 @@ if ( ! function_exists( 'ecvetstep_post_format_meta' ) ) :
  *
  * Create your own ecvetstep_post_format_meta() to override in a child theme.
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_post_format_meta() {
 	// Translators: used between list items, there is a space after the comma.
@@ -310,7 +310,7 @@ endif;
 /**
  * Returns true if a blog has more than 1 category
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_categorized_blog() {
 	if ( false === ( $all_the_cool_cats = get_transient( 'all_the_cool_cats' ) ) ) {
@@ -337,7 +337,7 @@ function ecvetstep_categorized_blog() {
 /**
  * Flush out the transients used in ecvetstep_categorized_blog
  *
- * @since Catch Kathmandu 1.0
+ * @since ECVET STEP One 1.0
  */
 function ecvetstep_category_transient_flusher() {
 	// Like, beat it. Dig?

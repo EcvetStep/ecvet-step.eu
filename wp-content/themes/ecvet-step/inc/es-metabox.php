@@ -1,23 +1,23 @@
 <?php
 /**
- * Catch Kathmandu Custom meta box
+ * ECVET STEP Custom meta box
  *
- * @package Catch Themes
- * @subpackage Catch Kathmandu
- * @since Catch Kathmandu 1.0
+ * @package ECVET STEP Themes
+ * @subpackage ECVET STEP One
+ * @since ECVET STEP One 1.0
  */
  
  // Add the Meta Box  
 function ecvetstep_add_custom_box() {
 	add_meta_box(
 		'ecvetstep-options',							  	//Unique ID
-       __( 'Catch Kathmandu Options', 'ecvetstep' ),   	//Title
+       __( 'ECVET STEP Theme Options', 'ecvetstep' ),   	//Title
         'ecvetstep_meta_options',                   	//Callback function
         'page'                                          	//show metabox in page
     ); 
 	add_meta_box(
-		'ecvetstep-options',							  	//Unique ID
-       __( 'Catch Kathmandu Options', 'ecvetstep' ),   	//Title
+		'ecvetstep-options',							//Unique ID
+       __( 'ECVET STEP Theme Options', 'ecvetstep' ),   //Title
         'ecvetstep_meta_options',                   	//Callback function
         'post'                                          	//show metabox in post
     ); 	
