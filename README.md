@@ -2,6 +2,49 @@
 
 Website of the **"ECVET STEP"** project, live at: http://ecvet-step.eu
 
+## Installation
+
+
+**Requirements:**
+
+* nginx (or apache)
+* php5 
+* mariadb (or mysql)
+
+The following instructions apply for a typical arch-linux installation:
+
+```sh
+systemctl start mysqld.service
+systemctl start php5-fpm.service
+systemctl start nginx.service
+```
+
+In case you need to import the database, you need to issue the following commands:
+
+```sh
+gunzip ecvet_step.sql.gz
+mysql -u <user> -p
+
+> provide the password for <user>
+
+create database ecvet_step_eu;
+use  ecvet_step_eu
+source ecvet_step.sql;
+quit
+```
+
+To get the content of the site:
+
+```
+rsync -avz hq.ecvet-step.eu:/home/tkout/dev/ecvet-step-eu/wp-content/uploads .
+```
+
+or get a snapshot from: http://ecvet-step.eu/uploads.tgz
+
+*NOTE:* most URLs will appear broken, best approach to fix this while working on your dev workstation is to add a "mock" entry in the `/etc/hosts` file, i.e:  `127.0.0.1       ecvet-step.eu`
+
+
+
 ## Main components
 
 
@@ -161,8 +204,3 @@ Project Number: 539816-LLP-1-2013-1-GR-LEONARDO-LMP
           alt="Level Double-A conformance icon, 
           W3C-WAI Web Content Accessibility Guidelines 1.0"></a>
 ```
-
-<<<<<<< HEAD
-
-=======
->>>>>>> f7e57f8406c4ee06f70ded66e6053d714e932b8b
