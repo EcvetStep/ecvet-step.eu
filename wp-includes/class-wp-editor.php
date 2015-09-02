@@ -354,7 +354,8 @@ final class _WP_Editors {
 						'wordpress',
 						'wpautoresize',
 						'wpeditimage',
-						'wpemoji',
+						// ~~~ tkout - removed wpemoji, incompatible with DW-QA plugin
+//						'wpemoji',
 						'wpgallery',
 						'wplink',
 						'wpdialogs',
