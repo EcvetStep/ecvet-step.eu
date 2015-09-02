@@ -13,10 +13,12 @@
 	add_filter( 'tiny_mce_before_init', 'dwqa_paste_srtip_disable' );
 	$editor = array( 
 		'wpautop'       => false,
-		'media_buttons' => false, // NOTE: tkout - no need for media!
+		// ~~~ tkout - no need for media!
+		'media_buttons' => false, 
 		'id'            => 'dwqa-answer-question-editor',
 		'textarea_name' => 'answer-content',
-		'rows'          => 5,
+		// ~~~ tkout - 4 rows instead of 2
+		'rows'          => 4,
 	);
 	?>
 	<?php dwqa_init_tinymce_editor( $editor ); ?>
@@ -63,4 +65,8 @@
 			</span>
 		</div>
 	</form>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> cb9abd7d4550b4e3b454cc26d4915e5f173309d6
