@@ -15,7 +15,7 @@ The following instructions apply for a typical arch-linux installation:
 
 ```sh
 systemctl start mysqld.service
-systemctl start php5-fpm.service
+systemctl start php-fpm.service
 systemctl start nginx.service
 ```
 
