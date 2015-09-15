@@ -65,8 +65,4 @@
 			</span>
 		</div>
 	</form>
-<<<<<<< HEAD
 </div>
-=======
-</div>
->>>>>>> cb9abd7d4550b4e3b454cc26d4915e5f173309d6
