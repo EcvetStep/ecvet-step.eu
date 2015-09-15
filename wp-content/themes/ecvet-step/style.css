@@ -389,7 +389,6 @@ th {
 }
 button,
 input,
-select,
 textarea {
 	border: 1px solid #eee;
 	font-size: 100%; /* Corrects font size not being inherited in all browsers */
@@ -590,6 +589,12 @@ img#wpstats {
 
 /* =Menu
 ----------------------------------------------- */
+#menu-item-1369 {
+	background-color: coral
+}
+#menu-item-1838 {
+	background-color: yellowgreen;
+}
 
 #secondary-menu {
 	background-color: #2581aa;
@@ -2091,3 +2096,4 @@ div.lcp p a img {
 
 
 }
+
