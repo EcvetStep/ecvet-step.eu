@@ -1,6 +1,6 @@
 # ecvet-step.eu
 
-Website of the **"ECVET STEP"** project, live at: http://ecvet-step.eu
+Website of the **"ECVET STEP"** project, live at: http://ecvetstep.eu
 
 ## Installation
 
